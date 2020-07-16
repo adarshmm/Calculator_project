@@ -90,14 +90,14 @@ button_0 = Button(root, text="0",padx=40, pady=10, command=lambda: button_click(
 
 #Assigning buttons for operators
 
-button_add = Button(root, text="+",padx=40, pady=10, command=addition_button)
-button_subtract = Button(root, text="-",padx=41, pady=10, command=subtraction_button)
-button_multiply = Button(root, text="x",padx=40, pady=10, command=multiplication_button)
-button_divide = Button(root, text="÷",padx=40, pady=10, command=division_button)
+button_add = Button(root, text="+",padx=40, pady=10, command=addition_button,bg="#343b3b",fg="white")
+button_subtract = Button(root, text="-",padx=41, pady=10, command=subtraction_button,bg="#343b3b",fg="white")
+button_multiply = Button(root, text="x",padx=40, pady=10, command=multiplication_button,bg="#343b3b",fg="white")
+button_divide = Button(root, text="÷",padx=40, pady=10, command=division_button,bg="#343b3b",fg="white")
 button_equal = Button(root, text="=",padx=40, pady=10, command=button_equalto)
 #Assigning other buttons
 
-button_clear = Button(root, text="C",padx=40, pady=10,command=button_clearing)
+button_clear = Button(root, text="C",padx=40, pady=10,command=button_clearing,bg="#343b3b",fg="white")
 
 
 
